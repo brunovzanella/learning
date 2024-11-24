@@ -1,0 +1,20 @@
+'''
+versão 1.1.0
+patch notes:
+* linha 1 agora categoriza gastos
+* criada terceira categoria de gastos para separar vale alimentação e mobilidade
+* cabeçalho passou para a linha 2
+versão 1.2.0
+* passado o resultado da soma para a linha 3
+* colorida a linha 3 de cinza
+* adicionada função linhas de congelamento nas linhas 1, 2 e 3
+versão 2.0.0
+* refatorado o código todo, criando uma função para impedir repetições
+* importadas as bibliotecas pandas e tkinter para dar a opção de nomear e selecionar destino
+* tentando novamente: proteger as linhas 1, 2 e 3 contra edição
+
+to do:
+* alterar a ordem das colunas
+* mesclar células [B,C,D], [G,H,I] e [L,M,N] e passar o total da soma para a célula mesclada
+* excluir todas as células que estiverem fora da tabela
+'''
