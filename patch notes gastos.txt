@@ -11,10 +11,8 @@ versão 1.2.0
 versão 2.0.0
 * refatorado o código todo, criando uma função para impedir repetições
 * importadas as bibliotecas pandas e tkinter para dar a opção de nomear e selecionar destino
-
-to do:
-* alterar a ordem das colunas
-* mesclar células [B,C,D], [G,H,I] e [L,M,N] e passar o total da soma para a célula mesclada
-* excluir todas as células que estiverem fora da tabela
-* descobrir como bloquear as linhas 1 a 3 sem bloquear as colunas de soma
-'''
+versão 2.1.0
+* retiradas linhas de grade
+* alterado "Vale mobilidade" para "Débito/Pix"
+versão 2.1.1
+* correção de bug que não aplicava estilo moeda nas células de soma
