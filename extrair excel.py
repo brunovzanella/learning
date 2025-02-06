@@ -18,6 +18,6 @@ df = pd.read_sql(query, conn)
 
 conn.close()
 
-df.to_excel(r'C:\Users\BrunoVieiraZanella\Desktop\teste\dados_banco.xlsx', index=False)
+df.to_excel(r'C:\Users\dados_banco.xlsx', index=False)
 
 print('Planilha salva com sucesso')
